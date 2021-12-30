@@ -1,0 +1,93 @@
+
+.top{
+	 background-color: #333;
+	 position: sticky;
+	 overflow: hidden;
+		    } 
+			
+.top a { 
+	 font-family: 'Zen Kurenaido', sans-serif; 
+	 float: left;
+	 color: #FFFFFF;
+	 width:10%;
+	 position: sticky;
+	}
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+ a:hover, a:active {
+    background-color: #000000;
+	color: white;
+    }  
+.products{
+    text-align:center;
+	width: 300px;
+	margin: 0 auto;
+	font-family:"Rubik", sans-serif;
+	}
+.products img{
+    display: block;
+	height: 400px;
+    width: 300px;
+	}    
+.about-section {
+    padding: 50px;
+	text-align: center;
+	background-color: #9AAEB2;
+	font-family:"Rubik", sans-serif;
+}
+.info {
+    text-align: left;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: white;
+	margin: 0;
+	width: 300px;
+	}
+			
+img {
+	margin: 0 auto;
+	width: 450px;
+	}
+			
+.sprite1{
+	background: url("../images/fb.png") no-repeat;
+	width: 66px;
+	height: 66px;
+	}
+			
+.sprite2{
+    background: url("../images/twt.png") no-repeat;
+	width: 66px;
+	height: 66px;
+	}
+			
+.sprite3{
+     background: url("../images/insta.png") no-repeat;
+	width: 66px;
+    height: 66px;
+	} 
+.container::after, .row::after {
+	content: "";
+	display: table;
+			
+	}
+	
+.row {
+	margin: auto;
+	padding-left: 300px;
+}
+			
+.column{ 
+			float: left;
+			width: 300px;
+			font-family:"Rubik", sans-serif;
+			display: block;
+			margin: auto;
+			}
+		    
